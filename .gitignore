@@ -32,3 +32,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# SSH keys
+terraform/ssh-key
+terraform/ssh-key.pub

@@ -1,0 +1,9 @@
+cat <<EOF > .dockerignore
+.git
+.gitignore
+node_modules
+target
+mysql-data
+*.log
+EOF
+
